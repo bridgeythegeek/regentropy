@@ -24,7 +24,8 @@ $ pip install --pre python-registry
 
 ## Usage
 ```
-usage: regentropy.py [-h] [--min-ent MIN_ENT] [--min-bytes MIN_BYTES] [--csv] target [target ...]
+usage: regentropy.py [-h] [--min-ent MIN_ENT] [--min-bytes MIN_BYTES] [--csv]
+                     target [target ...]
 
 positional arguments:
   target                file to analyse. supports globbing: folder/*
